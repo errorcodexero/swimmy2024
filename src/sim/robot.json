@@ -1,0 +1,73 @@
+{
+    "models" :
+    [
+        {
+            "model" : "navx",
+            "instance" : "1"
+        },
+        {
+            "model" : "fms",
+            "instance" : "1",
+            "props" : {
+                "start" : 1.0,
+                "autonomous" : 15.0,
+                "create_early" : true                
+            }            
+        },
+        {
+            "model" : "limelight",
+            "instance" : "1",
+            "props" : {
+            }
+        },
+        {
+            "model": "drivergamepad",
+            "instance": "1",
+            "props": {
+                "index": 0,
+                "axes": 6,
+                "buttons": 10,
+                "povs": 1,
+                "create_early": true
+            }
+        },
+        {
+            "model" : "swimmyoi",
+            "instance" : "1",
+            "props" : {
+                "index" : 2,
+                "name" : "Error Code Xero Custom OI",
+                "axes" : 8,
+                "buttons" : 16,
+                "povs" : 1,
+                "create_early" : true,
+                "name-collect_v_place" : 6,
+                "name-cone_v_cube:1" : 9,
+                "name-cone_v_cube:2" : 10,
+                "name-auto_v_manual" : 5,
+                "name-lock" : 4,
+                "name-abort" : 1,
+                "name-apriltag:1" : 7,
+                "name-apriltag:2" : 8,
+                "name-slot:1" : 13,
+                "name-slot:2" : 14,
+                "name-height:1" : 11,
+                "name-height:2" : 12,
+                "name-turtle" : 2,
+                "name-action" : 3
+            }
+        },
+        {
+            "model" : "arm",
+            "instance" : "1",
+            "props" : {
+                "first:motor:type" : "talon-fx",
+                "first:motor:index" : 1,
+                "first:ticks_per_second_per_volt" : 176960,
+                "second:motor:type" : "talon-fx",
+                "second:motor:index" : 2,
+                "second:ticks_per_second_per_volt" :  176083
+            }
+        }
+    ]
+}

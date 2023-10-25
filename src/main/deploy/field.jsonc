@@ -1,0 +1,86 @@
+{
+    "red": {
+        "grid": {
+            "yoffset" : 0.576574,               // 0.556574,
+            "right": {                          // center of field
+                "grid-id": 3,
+                "middle": {
+                    "x": 14.66798,
+                    "y": 4.424426,
+                    "heading" : 0
+                },
+            },
+            "middle": {                           //coopertition grid of field
+                "grid-id": 2,
+                "middle": {
+                    "x": 14.66798,
+                    "y": 2.748026,
+                    "heading" : 0
+                },
+            },
+            "left": {                               //edge of field
+                "grid-id": 1,
+                "middle": {
+                    "x": 14.66798,
+                    "y": 1.031626,
+                    "heading" : 0
+                }
+            }
+        },
+        "loading-station": {                                 //loading station
+            "grid-id": 5,
+            "left": {                           //closer to edge of field
+                "x": 0.942204,
+                "y": 5.874832,
+                "heading" : 180
+            },
+            "right": {
+                "x": 0.942204,
+                "y": 7.62476,
+                "heading" : 180
+            }
+        }
+    },
+    "blue": {
+        "grid": {
+            "yoffset" : 0.586574,
+            "left": { //middle of field
+                "grid-id": 6,
+                "middle": {
+                    "x": 1.873,
+                    "y": 4.424426,
+                    "heading" : 180
+                },
+            },
+            "middle": { //coopertition grid of field
+                "grid-id": 7,
+                "middle": {
+                    "x": 1.873,
+                    "y": 2.748026,
+                    "heading" : 180
+                },
+            },
+            "right": { //edge of field
+                "grid-id": 8,
+                "middle": {
+                    "x": 1.873,
+                    "y": 1.071626,
+                    "heading" : 180
+                },
+            }
+        },
+        "loading-station": { //loading station
+            "grid-id": 4,
+            "left": { //closer to edge of field
+                "x": 15.598784,
+                "y": 7.62476,
+                "heading" : 0
+            },
+            "right": {
+                "x": 15.598784,
+                "y": 5.874832,
+                "heading" : 0
+            }
+        }
+    }
+}
