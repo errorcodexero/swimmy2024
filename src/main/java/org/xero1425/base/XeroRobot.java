@@ -19,7 +19,6 @@ import edu.wpi.first.wpilibj.PneumaticsModuleType;
 import edu.wpi.first.wpilibj.PowerDistribution;
 import edu.wpi.first.wpilibj.RobotBase;
 import edu.wpi.first.wpilibj.RobotController;
-import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.DriverStation.Alliance;
 import edu.wpi.first.wpilibj.PowerDistribution.ModuleType;
@@ -44,6 +43,7 @@ import org.xero1425.base.motors.MotorFactory;
 import org.xero1425.base.subsystems.RobotSubsystem;
 import org.xero1425.base.subsystems.Subsystem.DisplayType;
 import org.xero1425.base.subsystems.tankdrive.TankDrivePathFollowerAction;
+import org.littletonrobotics.junction.LoggedRobot;
 import org.xero1425.base.actions.Action;
 import org.xero1425.base.controllers.BaseController;
 import org.xero1425.base.controllers.AutoController;
@@ -57,7 +57,7 @@ import org.xero1425.base.controllers.TestController ;
 /// WPILib TimedRobot class and provides a complete infrastructure for robot code including
 /// a settings file, a message logger, and a plotting system.  It is expected that a class will
 /// be derived from this class that is specific to the robot being programmed.
-public abstract class XeroRobot extends TimedRobot {
+public abstract class XeroRobot extends LoggedRobot {
 
     // This object contains important file system paths for the robot code
     private final RobotPaths robot_paths_;
